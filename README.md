@@ -1,41 +1,86 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 1stSite
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-## Available Scripts
+<!-- TABLE OF CONTENTS -->
 
-In the project directory, you can run:
+## Table of Contents
 
-### `yarn start`
+- [About the Project](#about-the-project)
+  - [Built With](#built-with)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Contributing](#contributing)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
+- [Learn More](#learn-more)
+    - [Making a Progressive Web App](making-a-progresive-web-app)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- ABOUT THE PROJECT -->
+## About the project
+This will be the Final product of the wireframe we started for `The Rocks Fansite`
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Built With
 
-### `yarn test`
+- [Create React App](https://github.com/facebook/create-react-app)
+- [Bootstrap](https://getbootstrap.com)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Prerequisites
 
-### `yarn build`
+- npm
+  `sh npm install npm@latest -g `
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+1. `git clone` this repo
+   `sh git clone https://github.com/your_username_/Project-Name.git `
+2. `cd` into it.
+3. `Install` NPM packages
+   `sh yarn install `
+4. `cd client && yarn install`
+5. `cp .env.sample .env`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Dependencies
 
-### `yarn eject`
+| bootstrap               | 
+| react                   |
+| react-bootstrap         |
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Available build commands
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- `yarn dev`: Runs BOTH your Express.JS and React developer environment locally at the same time. Any logs coming from Express will be prefaced with `[0]`, any logs from `create-react-app` will be prefaced with `[1]`.
+- `yarn server`: Runs JUST your Express.JS server.
+- `yarn client`: Runs JUST your front-end React app.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Open [http://localhost:3000](http://localhost:3000) to view your local React app in the browser. The page will reload if you make edits.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## To deploy
+
+NOTE: Heroku specifically runs `npm start`, so don't remove that from your package.json file.
+
+- `heroku create your-app-name`
+- `heroku config:set MONGODB_URL=<insertYourAtlasDbUri>`
+- `git push heroku master`
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<!-- CONTACT -->
+## Contact
+
+Jeannie Torres - [https://www.linkedin.com/in/jeannie-torres/] - jeanniet89@gmail.com
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+
+- [Img Shields](https://shields.io)
 
 ## Learn More
 
@@ -43,26 +88,11 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
 ### Making a Progressive Web App
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Advanced Configuration
+<!-- MARKDOWN LINKS & IMAGES -->
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/jeannie-torres-6628bb96/
