@@ -43,7 +43,6 @@ This will be the Final product of the wireframe we started for `The Rocks Fansit
 
 | bootstrap               | 
 | react                   |
-| react-bootstrap         |
 
 ## Available build commands
 
