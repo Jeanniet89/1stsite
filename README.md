@@ -9,6 +9,9 @@
   - [Built With](#built-with)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
+  - [Dependencies](#dependencies)
+  - [Available build commands](#available-build-commands)
+  - [To Deploy](#to-deploy)
 - [Contributing](#contributing)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
@@ -19,17 +22,17 @@
 ## About the project
 This will be the Final product of the wireframe we started for `The Rocks Fansite`
 
-## Built With
+### Built With
 
 - [Create React App](https://github.com/facebook/create-react-app)
 - [Bootstrap](https://getbootstrap.com)
 
-## Prerequisites
+### Prerequisites
 
 - npm
   `sh npm install npm@latest -g `
 
-## Installation
+### Installation
 
 1. `git clone` this repo
    `sh git clone https://github.com/your_username_/Project-Name.git `
@@ -39,12 +42,12 @@ This will be the Final product of the wireframe we started for `The Rocks Fansit
 4. `cd client && yarn install`
 5. `cp .env.sample .env`
 
-## Dependencies
+### Dependencies
 
 | bootstrap               | 
 | react                   |
 
-## Available build commands
+### Available build commands
 
 - `yarn dev`: Runs BOTH your Express.JS and React developer environment locally at the same time. Any logs coming from Express will be prefaced with `[0]`, any logs from `create-react-app` will be prefaced with `[1]`.
 - `yarn server`: Runs JUST your Express.JS server.
@@ -52,7 +55,7 @@ This will be the Final product of the wireframe we started for `The Rocks Fansit
 
 Open [http://localhost:3000](http://localhost:3000) to view your local React app in the browser. The page will reload if you make edits.
 
-## To deploy
+### To deploy
 
 NOTE: Heroku specifically runs `npm start`, so don't remove that from your package.json file.
 
@@ -74,7 +77,7 @@ Any contributions you make are **greatly appreciated**.
 <!-- CONTACT -->
 ## Contact
 
-Jeannie Torres - [https://www.linkedin.com/in/jeannie-torres/] - jeanniet89@gmail.com
+Jeannie Torres - [jeanniet89@gmail.com] 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
