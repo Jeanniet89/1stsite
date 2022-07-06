@@ -32,9 +32,9 @@
     background-clip: text;
 }
 /* banner */
- /* .site-banner{
-    background: url(src/img/eye-4453129_1920.jpg)no-repeat 0% 53%;
-} */
+ .site-banner{
+    background-image: url(./img/eye-4453129_1920.jpg) no-repeat 0% 53%;
+}
  .site-banner .site-title h3{
    padding-top: 35%;
    font-weight: 500; 

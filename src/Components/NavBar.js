@@ -1,6 +1,6 @@
 import React from "react";
 // import { NavBar } from "react-bootstrap";
-import Link from "./Link.js";
+import {NavLink} from "react-router-dom";
 
 
 class NavBar extends React.Component {
@@ -17,14 +17,14 @@ class NavBar extends React.Component {
 						</button>
 						<div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
 							<ul class="nav navbar-nav">
-								<li class="nav-item active" />
-									<Link class="nav-link" href="#" /><i class="fa fa-fw fa-home" />Home
 								<li class="nav-item" />
-									<Link class="nav-link" href="#about" /><i class="fa-solid fa-user-gear" />About
+									<NavLink class="nav-link" to="/" exact activeClassName='active' /><i class="fa fa-fw fa-home" />Home
 								<li class="nav-item" />
-									<Link class="nav-link" href="#skills" /><i class="fa-solid fa-puzzle-piece" />Skills   
+									<NavLink class="nav-link" to="/about" activeClassName='active' /><i class="fa-solid fa-user-gear" />About
 								<li class="nav-item" />
-									<Link class="nav-link" href="#projects" /><i class="fa-solid fa-code-pull-request" />Projects
+									<NavLink class="nav-link" to="/skills" activeClassName='active' /><i class="fa-solid fa-puzzle-piece" />Skills   
+								<li class="nav-item" />
+									<NavLink class="nav-link" to="/projects" activeClassName='active' /><i class="fa-solid fa-code-pull-request" />Projects
 							</ul>
 						</div>  
 					</nav>
